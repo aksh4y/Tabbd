@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/black_overlay"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Enter Link"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/userInputDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/AppYellow"
+        android:text="http://"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/paste"
+        android:layout_width="match_parent"
+        android:background="@color/AppYellow"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:text="Paste From Clipboard" />
+
+
+</LinearLayout>

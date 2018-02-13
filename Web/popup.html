@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbd</title>
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="row container-fluid">
+        <div class="col-xs-12">
+            <div class="navbar-text pull-right">
+                <a id="addWebsite" class="navbar-link">
+                      <span id="plus" class="glyphicon glyphicon-plus">
+                      </span>
+                </a>
+            </div>
+            <div class="navbar-text pull-left">
+                <a id="signOut" class="navbar-link">
+                    <span class="glyphicon glyphicon-log-out"></span>
+                </a>
+            </div>
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    Tabbd
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div id="offlineAlert" style="display: none" class="alert alert-danger alert-dismissable fade in">
+    <a href="#" id="close" class="close" aria-label="close">&times;</a>
+    <strong>Oh snap!</strong> You need to be online to do that.
+</div>
+<div style="display: none" id="loader" class="loader"></div>
+<div class="container">
+    <ul id="list" class="list-group"></ul>
+</div>
+<div class="navbar navbar-fixed-bottom">
+    <span id="status" class="glyphicon glyphicon-globe"></span>
+    <h5 id="connectivity">CONNECTED</h5>
+    <h6 id="sync"></h6>
+    <h6><a id="copyright" href="https://akshaysadarangani.com" target="_blank">© Akshay Sadarangani</a></h6>
+</div>
+<button style="display: none" class="btn btn-info" id="openTabs">Open All</button>
+
+<!-- Modal to add website -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Add Website</h4>
+            </div>
+            <div class="modal-body">
+                <div class="input-group">
+                    <input id="url" class="form-control" placeholder="http://">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" id="add">Add!</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="popup.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabbd</title>
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <style>
+        html, body {
+            background-image: none;
+        }
+    </style>
+</head>
+<body>
+<img id="logo" src="icon_128.png"/>
+<div class="container">
+    <label for="token">Enter code shown on phone to link phone to web</label>
+    <div class="input-group">
+        <input id="token" class="form-control">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button" id="authenticate">Go!</button>
+        </span>
+    </div>
+    <br/>
+    <a href="https://akshaysadarangani.com/Tabbd/login.html" target="_blank">Recover authorization code</a>
+    <br/>
+    <h6 class="error">Invalid auth key.</h6>
+    <div id="android">
+        <a target="_blank" href='https://play.google.com/store/apps/details?id=com.akshaysadarangani.tabbd&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+        <h6>Google Play and the Google Play logo are trademarks of Google Inc.</h6>
+    </div>
+</div>
+<script src="login.js"></script>
+</body>
+</html>
