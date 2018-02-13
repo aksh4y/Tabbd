@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img width="64" height="64" src="https://akshaysadarangani.com/Tabbd/Logo.png">
 </p>
 
