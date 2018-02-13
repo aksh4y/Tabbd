@@ -1,4 +1,4 @@
-# Tabbd <img src="https://akshaysadarangani.com/Tabbd/Logo.png" width="32" height="32">
+# Tabbd <img src="https://akshaysadarangani.com/Tabbd/Logo.png" width="24" height="24">
 
 ### Sync links between your phone and PC with ease
 
