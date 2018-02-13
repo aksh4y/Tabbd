@@ -15,9 +15,21 @@ Android + Google Firebase + Google Chrome Extension
 [Watch the demo](https://youtu.be/OSnnOfw9TIU)
 
 ## Download
+![img](Screenshots/Download.png)
+
 [Android App](https://play.google.com/store/apps/details?id=com.akshaysadarangani.tabbd&hl=en)
 
 [Google Chrome Extension](https://chrome.google.com/webstore/detail/tabbd/ihlgondhganfhackipognhhibiccgfpc?hl=en-US)
+
+## Screenshots
+![img](Screenshots/S8_Add.png)
+![img](Screenshots/S8_Share.png)
+![img](Screenshots/S8_Offline.png)
+
+![img](Screenshots/Screenshot%201.png)
+![img](Screenshots/Screenshot%202.png)
+![img](Screenshots/Screenshot%203.png)
+![img](Screenshots/Screenshot%204.png)
 
 ## Bugs and Feedback
 For bugs, questions and discussions please use the [Github Issues](https://github.com/aksh4y/Tabbd/issues).
